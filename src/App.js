@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Footer";
 import QRCode from "./images/image-qr-code.png";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             </p>
           </div>
         </div>
+        <Footer />
       </main>
     </div>
   );
